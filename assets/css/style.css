@@ -2,6 +2,9 @@
 @import "./partials/fonts.css";
 
 .header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
   background-color: rgb(255, 255, 255);
   height: 90px;
   border-bottom: 1px solid rgb(255, 255, 255);
@@ -135,6 +138,7 @@ a {
 .header-section p {
   margin: 0;
   font-size: 50px;
+  font-weight: 400;
   font-family: Shadow-Into-Light;
 }
 
@@ -421,4 +425,63 @@ a {
   padding-top: 5px;
   text-align: center;
   font-size: 15px;
+}
+
+.menu .nav-link {
+  margin: 0 10px;
+  padding: 10px 5px;
+  color: rgb(0, 0, 0);
+  height: 100%;
+  border: 0;
+  border-bottom: 2px solid #b6b6bf;
+}
+
+.menu .nav-link h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  font-family: Roboto;
+}
+
+.tab-content .tab-pane{
+  display: block;
+}
+
+.menu .center-nav{
+  justify-content: center;
+}
+
+.menu .tab-content .header {
+  padding: 30px 0;
+}
+
+.menu .tab-content .col-lg-4 {
+  text-align: center;
+}
+
+.menu .tab-content .col-lg-4 .menu-img {
+  width: 100%;
+  padding: 0 60px;
+  margin-bottom: 15px;
+}
+
+.menu .tab-content .col-lg-4 h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-weight: 30px;
+  margin-bottom: 5px;
+}
+
+.menu .tab-content .col-lg-4 .ingredients {
+  font-family: Roboto;
+  color: rgb(128, 128, 128);
+  margin-bottom: 5px;
+}
+
+.menu .tab-content .col-lg-4 .price {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(165, 42, 42);
 }
