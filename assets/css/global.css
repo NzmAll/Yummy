@@ -78,3 +78,7 @@
 .ps-lg-5{
   padding-left: 3rem;
 }
+
+.d-flex{
+  display: flex;
+}
