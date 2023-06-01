@@ -180,6 +180,14 @@ a {
   padding: 0;
 }
 
+.about .content ul i {
+  position: absolute;
+  font-size: 20px;
+  left: 0;
+  top: -3px;
+  color: rgb(165, 42, 42);
+}
+
 .about .content ul li {
   padding: 0 0 10px 25px;
   position: relative;
