@@ -1,0 +1,184 @@
+@import "../css/global.css";
+@import "./partials/fonts.css";
+
+$header-bg-color: rgb(255, 255, 255);
+$header-border-color: rgb(255, 255, 255);
+$header-text-color: rgb(255, 255, 255);
+$header-height: 90px;
+
+$primary-color: rgb(165, 42, 42);
+$secondary-color: rgb(128, 128, 128);
+
+$font-family-roboto: Roboto;
+$font-family-shadow: Shadow-Into-Light;
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: $header-bg-color;
+  height: $header-height;
+  border-bottom: 1px solid $header-border-color;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+
+  h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 30px;
+    font-family: $font-family-roboto;
+  }
+}
+
+.center-nav {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+
+    li {
+      padding: 10px 0 10px 30px;
+    }
+  }
+}
+
+.right-nav {
+  font-size: 15px;
+  color: $header-text-color;
+  background-color: $primary-color;
+  padding: 10px 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 50px;
+}
+
+.enjoy-section {
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0 50px 0;
+  background-color: $secondary-color;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+
+  h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-family: $font-family-shadow;
+  }
+
+  p {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-family: $font-family-roboto;
+  }
+
+  .right-nav {
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px 35px;
+    color: $header-text-color;
+  }
+
+  .play-video {
+    font-size: 15px;
+    margin-left: 25px;
+    font-weight: 600;
+
+    i {
+      color: $primary-color;
+      font-size: 30px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.img-food {
+  max-width: 100%;
+  height: auto;
+  padding: 30px;
+}
+
+.header-section {
+  text-align: center;
+  padding-bottom: 30px;
+
+  h2 {
+    font-size: 15px;
+    color: $secondary-color;
+    font-family: $font-family-roboto;
+  }
+
+  p {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: $font-family-shadow;
+  }
+}
+
+.content-section {
+  padding: 30px;
+
+  h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: $font-family-roboto;
+  }
+
+  p {
+    margin-bottom: 30px;
+    font-family: $font-family-roboto;
+  }
+
+  .btn {
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: $primary-color;
+    color: $header-text-color;
+  }
+}
+
+.footer {
+  background-color: $header-bg-color;
+  color: $header-text-color;
+  padding: 20px;
+  text-align: center;
+
+  p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .social-media {
+    margin-top: 20px;
+
+    a {
+      display: inline-block;
+      margin: 0 10px;
+      color: $header-text-color;
+      font-size: 20px;
+    }
+  }
+}
